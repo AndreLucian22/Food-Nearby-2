@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC304E801D46E4352C4A1ED /* Pods_Food_NearbyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4728C555E91AB949B54E6B5E /* Pods_Food_NearbyUITests.framework */; };
+		703B69B8BBC52EFAFB806881 /* Pods_Food_Nearby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC7C0D58C495130C5638B23 /* Pods_Food_Nearby.framework */; };
+		7E2185CD1D37FC92008B5810 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2185CC1D37FC92008B5810 /* OtherViewController.swift */; };
+		7E21DD5F1D34D2F400AFB5E0 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21DD5E1D34D2F400AFB5E0 /* HistoryViewController.swift */; };
+		7E21DD611D34D34A00AFB5E0 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21DD601D34D34A00AFB5E0 /* SubmitViewController.swift */; };
+		7E21DD631D34D35D00AFB5E0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E21DD621D34D35D00AFB5E0 /* SettingViewController.swift */; };
+		7E5718D41D477B3700829C06 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5718D31D477B3700829C06 /* ResultViewController.swift */; };
 		7E60AEB01D338003007BDF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEAF1D338003007BDF8B /* AppDelegate.swift */; };
 		7E60AEB21D338003007BDF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEB11D338003007BDF8B /* ViewController.swift */; };
 		7E60AEB51D338003007BDF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60AEB31D338003007BDF8B /* Main.storyboard */; };
@@ -14,6 +21,16 @@
 		7E60AEBA1D338003007BDF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60AEB81D338003007BDF8B /* LaunchScreen.storyboard */; };
 		7E60AEC51D338003007BDF8B /* Food_NearbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEC41D338003007BDF8B /* Food_NearbyTests.swift */; };
 		7E60AED01D338003007BDF8B /* Food_NearbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AECF1D338003007BDF8B /* Food_NearbyUITests.swift */; };
+		7E60AEE01D338027007BDF8B /* IntegretedFB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEDF1D338027007BDF8B /* IntegretedFB.m */; };
+		7E60AEE41D338129007BDF8B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E60AEE11D338129007BDF8B /* FBSDKShareKit.framework */; };
+		7E60AEE51D338129007BDF8B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E60AEE21D338129007BDF8B /* FBSDKLoginKit.framework */; };
+		7E60AEE61D338129007BDF8B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E60AEE31D338129007BDF8B /* FBSDKCoreKit.framework */; };
+		7E60AEEA1D3385A4007BDF8B /* SWRevealViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E60AEE81D3385A4007BDF8B /* SWRevealViewController.h */; };
+		7E60AEEB1D3385A4007BDF8B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEE91D3385A4007BDF8B /* SWRevealViewController.m */; };
+		7E60AEEF1D338654007BDF8B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEEE1D338654007BDF8B /* MenuViewController.swift */; };
+		7E60AEF11D3387D9007BDF8B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60AEF01D3387D9007BDF8B /* SearchViewController.swift */; };
+		7EE3F82B1D4B1F0A00A92BF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE3F82A1D4B1F0A00A92BF5 /* CoreLocation.framework */; };
+		F0A01BDE880B46D9F2A90C0A /* Pods_Food_NearbyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5EA2E53C2633494E5C8B4F /* Pods_Food_NearbyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AC7C0D58C495130C5638B23 /* Pods_Food_Nearby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Nearby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C99CD8D3FC1028B5B761D1 /* Pods-Food Nearby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Nearby.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Nearby/Pods-Food Nearby.debug.xcconfig"; sourceTree = "<group>"; };
+		4728C555E91AB949B54E6B5E /* Pods_Food_NearbyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_NearbyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7994B28BFCABE331B2BC9019 /* Pods-Food NearbyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food NearbyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food NearbyTests/Pods-Food NearbyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2185CC1D37FC92008B5810 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		7E21DD5E1D34D2F400AFB5E0 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		7E21DD601D34D34A00AFB5E0 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		7E21DD621D34D35D00AFB5E0 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		7E5718D31D477B3700829C06 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		7E60AEAC1D338003007BDF8B /* Food Nearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Nearby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E60AEAF1D338003007BDF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E60AEB11D338003007BDF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,22 @@
 		7E60AECB1D338003007BDF8B /* Food NearbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food NearbyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E60AECF1D338003007BDF8B /* Food_NearbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_NearbyUITests.swift; sourceTree = "<group>"; };
 		7E60AED11D338003007BDF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E60AEDD1D33801A007BDF8B /* IntegretedFB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegretedFB.h; sourceTree = "<group>"; };
+		7E60AEDE1D338027007BDF8B /* Food Nearby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Food Nearby-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E60AEDF1D338027007BDF8B /* IntegretedFB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegretedFB.m; sourceTree = "<group>"; };
+		7E60AEE11D338129007BDF8B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7E60AEE21D338129007BDF8B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7E60AEE31D338129007BDF8B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7E60AEE81D3385A4007BDF8B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7E60AEE91D3385A4007BDF8B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7E60AEEE1D338654007BDF8B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7E60AEF01D3387D9007BDF8B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7EE3F82A1D4B1F0A00A92BF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		88D10E60DDE0F15160129D1E /* Pods-Food NearbyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food NearbyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food NearbyTests/Pods-Food NearbyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C267DFDA8B2A07DF8B67BCF /* Pods-Food NearbyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food NearbyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food NearbyUITests/Pods-Food NearbyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1188439DB94F058EF27D3F6 /* Pods-Food NearbyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food NearbyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food NearbyUITests/Pods-Food NearbyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F421215A888584D46BBFC589 /* Pods-Food Nearby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Nearby.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food Nearby/Pods-Food Nearby.release.xcconfig"; sourceTree = "<group>"; };
+		FB5EA2E53C2633494E5C8B4F /* Pods_Food_NearbyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_NearbyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE3F82B1D4B1F0A00A92BF5 /* CoreLocation.framework in Frameworks */,
+				7E60AEE51D338129007BDF8B /* FBSDKLoginKit.framework in Frameworks */,
+				7E60AEE61D338129007BDF8B /* FBSDKCoreKit.framework in Frameworks */,
+				7E60AEE41D338129007BDF8B /* FBSDKShareKit.framework in Frameworks */,
+				703B69B8BBC52EFAFB806881 /* Pods_Food_Nearby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A01BDE880B46D9F2A90C0A /* Pods_Food_NearbyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC304E801D46E4352C4A1ED /* Pods_Food_NearbyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +126,15 @@
 		7E60AEA31D338003007BDF8B = {
 			isa = PBXGroup;
 			children = (
+				7E60AEE11D338129007BDF8B /* FBSDKShareKit.framework */,
+				7E60AEE21D338129007BDF8B /* FBSDKLoginKit.framework */,
+				7E60AEE31D338129007BDF8B /* FBSDKCoreKit.framework */,
 				7E60AEAE1D338003007BDF8B /* Food Nearby */,
 				7E60AEC31D338003007BDF8B /* Food NearbyTests */,
 				7E60AECE1D338003007BDF8B /* Food NearbyUITests */,
 				7E60AEAD1D338003007BDF8B /* Products */,
+				9A6E4A44DA44C5CAB7283F2D /* Pods */,
+				F1EAECCA2FB455F95BCB4632 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +153,22 @@
 			children = (
 				7E60AEAF1D338003007BDF8B /* AppDelegate.swift */,
 				7E60AEB11D338003007BDF8B /* ViewController.swift */,
-				7E60AEB31D338003007BDF8B /* Main.storyboard */,
 				7E60AEB61D338003007BDF8B /* Assets.xcassets */,
+				7E60AEB31D338003007BDF8B /* Main.storyboard */,
+				7E5718D31D477B3700829C06 /* ResultViewController.swift */,
 				7E60AEB81D338003007BDF8B /* LaunchScreen.storyboard */,
 				7E60AEBB1D338003007BDF8B /* Info.plist */,
+				7E60AEDD1D33801A007BDF8B /* IntegretedFB.h */,
+				7E60AEDF1D338027007BDF8B /* IntegretedFB.m */,
+				7E60AEDE1D338027007BDF8B /* Food Nearby-Bridging-Header.h */,
+				7E60AEE81D3385A4007BDF8B /* SWRevealViewController.h */,
+				7E60AEE91D3385A4007BDF8B /* SWRevealViewController.m */,
+				7E60AEEE1D338654007BDF8B /* MenuViewController.swift */,
+				7E60AEF01D3387D9007BDF8B /* SearchViewController.swift */,
+				7E21DD5E1D34D2F400AFB5E0 /* HistoryViewController.swift */,
+				7E21DD601D34D34A00AFB5E0 /* SubmitViewController.swift */,
+				7E21DD621D34D35D00AFB5E0 /* SettingViewController.swift */,
+				7E2185CC1D37FC92008B5810 /* OtherViewController.swift */,
 			);
 			path = "Food Nearby";
 			sourceTree = "<group>";
@@ -125,16 +191,55 @@
 			path = "Food NearbyUITests";
 			sourceTree = "<group>";
 		};
+		9A6E4A44DA44C5CAB7283F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38C99CD8D3FC1028B5B761D1 /* Pods-Food Nearby.debug.xcconfig */,
+				F421215A888584D46BBFC589 /* Pods-Food Nearby.release.xcconfig */,
+				7994B28BFCABE331B2BC9019 /* Pods-Food NearbyTests.debug.xcconfig */,
+				88D10E60DDE0F15160129D1E /* Pods-Food NearbyTests.release.xcconfig */,
+				8C267DFDA8B2A07DF8B67BCF /* Pods-Food NearbyUITests.debug.xcconfig */,
+				E1188439DB94F058EF27D3F6 /* Pods-Food NearbyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1EAECCA2FB455F95BCB4632 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EE3F82A1D4B1F0A00A92BF5 /* CoreLocation.framework */,
+				1AC7C0D58C495130C5638B23 /* Pods_Food_Nearby.framework */,
+				FB5EA2E53C2633494E5C8B4F /* Pods_Food_NearbyTests.framework */,
+				4728C555E91AB949B54E6B5E /* Pods_Food_NearbyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E60AEE71D338168007BDF8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E60AEEA1D3385A4007BDF8B /* SWRevealViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		7E60AEAB1D338003007BDF8B /* Food Nearby */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E60AED41D338003007BDF8B /* Build configuration list for PBXNativeTarget "Food Nearby" */;
 			buildPhases = (
+				EEC937AC67B53520AD23FCE7 /* 📦 Check Pods Manifest.lock */,
 				7E60AEA81D338003007BDF8B /* Sources */,
 				7E60AEA91D338003007BDF8B /* Frameworks */,
 				7E60AEAA1D338003007BDF8B /* Resources */,
+				7E60AEE71D338168007BDF8B /* Headers */,
+				5AA9B6CC6D2455C186EDD72B /* 📦 Embed Pods Frameworks */,
+				21860FFB5B971CAD4DC224D5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E60AED71D338003007BDF8B /* Build configuration list for PBXNativeTarget "Food NearbyTests" */;
 			buildPhases = (
+				6916C63D99DC48B2C71014F1 /* 📦 Check Pods Manifest.lock */,
 				7E60AEBC1D338003007BDF8B /* Sources */,
 				7E60AEBD1D338003007BDF8B /* Frameworks */,
 				7E60AEBE1D338003007BDF8B /* Resources */,
+				C1F33B3EA20566A792FD2124 /* 📦 Embed Pods Frameworks */,
+				57DF3F58EF6495E3D6681268 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E60AEDA1D338003007BDF8B /* Build configuration list for PBXNativeTarget "Food NearbyUITests" */;
 			buildPhases = (
+				14440F349064CED0729D0213 /* 📦 Check Pods Manifest.lock */,
 				7E60AEC71D338003007BDF8B /* Sources */,
 				7E60AEC81D338003007BDF8B /* Frameworks */,
 				7E60AEC91D338003007BDF8B /* Resources */,
+				2EA53111C841663071511592 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +303,7 @@
 				TargetAttributes = {
 					7E60AEAB1D338003007BDF8B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MKC78YHYAW;
 					};
 					7E60AEBF1D338003007BDF8B = {
 						CreatedOnToolsVersion = 7.3;
@@ -251,13 +362,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14440F349064CED0729D0213 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21860FFB5B971CAD4DC224D5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Nearby/Pods-Food Nearby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EA53111C841663071511592 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food NearbyUITests/Pods-Food NearbyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57DF3F58EF6495E3D6681268 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food NearbyTests/Pods-Food NearbyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AA9B6CC6D2455C186EDD72B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Nearby/Pods-Food Nearby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6916C63D99DC48B2C71014F1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F33B3EA20566A792FD2124 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food NearbyTests/Pods-Food NearbyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC937AC67B53520AD23FCE7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E60AEA81D338003007BDF8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E21DD611D34D34A00AFB5E0 /* SubmitViewController.swift in Sources */,
+				7E60AEF11D3387D9007BDF8B /* SearchViewController.swift in Sources */,
+				7E60AEE01D338027007BDF8B /* IntegretedFB.m in Sources */,
+				7E60AEEF1D338654007BDF8B /* MenuViewController.swift in Sources */,
 				7E60AEB21D338003007BDF8B /* ViewController.swift in Sources */,
+				7E21DD631D34D35D00AFB5E0 /* SettingViewController.swift in Sources */,
 				7E60AEB01D338003007BDF8B /* AppDelegate.swift in Sources */,
+				7E21DD5F1D34D2F400AFB5E0 /* HistoryViewController.swift in Sources */,
+				7E60AEEB1D3385A4007BDF8B /* SWRevealViewController.m in Sources */,
+				7E2185CD1D37FC92008B5810 /* OtherViewController.swift in Sources */,
+				7E5718D41D477B3700829C06 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,28 +640,46 @@
 		};
 		7E60AED51D338003007BDF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C99CD8D3FC1028B5B761D1 /* Pods-Food Nearby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Food Nearby/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Home.Food-Nearby";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stts.FoodNearby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Food Nearby/Food Nearby-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		7E60AED61D338003007BDF8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F421215A888584D46BBFC589 /* Pods-Food Nearby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Food Nearby/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Home.Food-Nearby";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stts.FoodNearby;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Food Nearby/Food Nearby-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		7E60AED81D338003007BDF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7994B28BFCABE331B2BC9019 /* Pods-Food NearbyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Food NearbyTests/Info.plist";
@@ -431,6 +692,7 @@
 		};
 		7E60AED91D338003007BDF8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D10E60DDE0F15160129D1E /* Pods-Food NearbyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Food NearbyTests/Info.plist";
@@ -443,6 +705,7 @@
 		};
 		7E60AEDB1D338003007BDF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C267DFDA8B2A07DF8B67BCF /* Pods-Food NearbyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Food NearbyUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +717,7 @@
 		};
 		7E60AEDC1D338003007BDF8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1188439DB94F058EF27D3F6 /* Pods-Food NearbyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Food NearbyUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +746,7 @@
 				7E60AED61D338003007BDF8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E60AED71D338003007BDF8B /* Build configuration list for PBXNativeTarget "Food NearbyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +755,7 @@
 				7E60AED91D338003007BDF8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E60AEDA1D338003007BDF8B /* Build configuration list for PBXNativeTarget "Food NearbyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +764,7 @@
 				7E60AEDC1D338003007BDF8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
